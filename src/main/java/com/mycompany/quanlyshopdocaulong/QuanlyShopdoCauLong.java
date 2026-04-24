@@ -11,6 +11,6 @@ package com.mycompany.quanlyshopdocaulong;
 public class QuanlyShopdoCauLong {
 
     public static void main(String[] args) {
-        System.out.println("Test Lan 2");
+        System.out.println("Test Lan 3");
     }
 }
