@@ -33,7 +33,7 @@ public class Giaodien extends javax.swing.JFrame {
 
         jButton1.setText("jButton1");
 
-        jLabel1.setText("Ba xa da chinh sua doan van ban nay");
+        jLabel1.setText("Bx xing gai");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);

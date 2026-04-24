@@ -55,7 +55,7 @@
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel1">
       <Properties>
-        <Property name="text" type="java.lang.String" value="Ba xa da chinh sua doan van ban nay"/>
+        <Property name="text" type="java.lang.String" value="Bx xing gai"/>
       </Properties>
     </Component>
   </SubComponents>
