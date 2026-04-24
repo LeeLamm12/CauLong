@@ -11,6 +11,6 @@ package com.mycompany.quanlyshopdocaulong;
 public class QuanlyShopdoCauLong {
 
     public static void main(String[] args) {
-        System.out.println("Test Lan 3");
+        System.out.println("Bai Cua Ba xa da duoc code va tai len github");
     }
 }
