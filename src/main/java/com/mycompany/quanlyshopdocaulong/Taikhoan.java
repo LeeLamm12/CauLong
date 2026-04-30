@@ -43,6 +43,7 @@ public class Taikhoan extends javax.swing.JFrame {
         txt_tensp4 = new javax.swing.JTextField();
         jLabel9 = new javax.swing.JLabel();
         txt_tensp5 = new javax.swing.JTextField();
+        btn_themgiohang1 = new javax.swing.JButton();
         jLabel7 = new javax.swing.JLabel();
         btn_timkiem1 = new javax.swing.JButton();
         btn_timkiem3 = new javax.swing.JButton();
@@ -103,6 +104,11 @@ public class Taikhoan extends javax.swing.JFrame {
         jLabel9.setFont(new java.awt.Font("Sitka Text", 1, 16)); // NOI18N
         jLabel9.setText("Lý do từ chối");
 
+        btn_themgiohang1.setBackground(new java.awt.Color(51, 102, 255));
+        btn_themgiohang1.setFont(new java.awt.Font("Sitka Text", 1, 14)); // NOI18N
+        btn_themgiohang1.setForeground(new java.awt.Color(255, 255, 255));
+        btn_themgiohang1.setText("Lưu thông tin tài khoản");
+
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
         jPanel2Layout.setHorizontalGroup(
@@ -132,7 +138,8 @@ public class Taikhoan extends javax.swing.JFrame {
                                 .addComponent(jLabel6)
                                 .addComponent(txt_tensp4))
                             .addComponent(jLabel9)
-                            .addComponent(txt_tensp5))))
+                            .addComponent(txt_tensp5)
+                            .addComponent(btn_themgiohang1, javax.swing.GroupLayout.PREFERRED_SIZE, 228, javax.swing.GroupLayout.PREFERRED_SIZE))))
                 .addContainerGap(25, Short.MAX_VALUE))
         );
         jPanel2Layout.setVerticalGroup(
@@ -164,13 +171,15 @@ public class Taikhoan extends javax.swing.JFrame {
                 .addComponent(jLabel9)
                 .addGap(3, 3, 3)
                 .addComponent(txt_tensp5)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(btn_themgiohang1, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(btn_themgiohang, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(11, 11, 11)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(btn_clear, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(btn_mua, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(59, 59, 59))
+                .addGap(46, 46, 46))
         );
 
         jLabel7.setFont(new java.awt.Font("Verdana", 1, 16)); // NOI18N
@@ -282,7 +291,7 @@ public class Taikhoan extends javax.swing.JFrame {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(txt_tensp6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jLabel10))
-                .addGap(17, 17, 17))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         pack();
@@ -344,6 +353,7 @@ public class Taikhoan extends javax.swing.JFrame {
     private javax.swing.JButton btn_clear;
     private javax.swing.JButton btn_mua;
     private javax.swing.JButton btn_themgiohang;
+    private javax.swing.JButton btn_themgiohang1;
     private javax.swing.JButton btn_timkiem1;
     private javax.swing.JButton btn_timkiem3;
     private javax.swing.JLabel jLabel1;
