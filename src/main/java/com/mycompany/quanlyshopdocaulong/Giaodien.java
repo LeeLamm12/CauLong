@@ -26,29 +26,108 @@ public class Giaodien extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jButton1 = new javax.swing.JButton();
-        jLabel2 = new javax.swing.JLabel();
+        btn_dangky = new javax.swing.JButton();
+        txt_tendangnhap = new javax.swing.JTextField();
+        txt_matkhau = new javax.swing.JTextField();
+        btn_dangnhap = new javax.swing.JButton();
+        tendangnhap = new javax.swing.JLabel();
+        matkhau = new javax.swing.JLabel();
+        btn_quenmk = new javax.swing.JButton();
+        jLabel1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jButton1.setText("jButton1");
-        jButton1.addActionListener(new java.awt.event.ActionListener() {
+        btn_dangky.setBackground(new java.awt.Color(102, 204, 255));
+        btn_dangky.setFont(new java.awt.Font("Sitka Text", 1, 18)); // NOI18N
+        btn_dangky.setForeground(new java.awt.Color(255, 255, 255));
+        btn_dangky.setText("Đăng ký");
+        btn_dangky.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton1ActionPerformed(evt);
+                btn_dangkyActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 320, -1, -1));
+        getContentPane().add(btn_dangky, new org.netbeans.lib.awtextra.AbsoluteConstraints(620, 380, 130, 40));
 
-        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/BODUA.png"))); // NOI18N
-        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1200, 630));
+        txt_tendangnhap.setFont(new java.awt.Font("Sitka Text", 0, 18)); // NOI18N
+        txt_tendangnhap.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txt_tendangnhapActionPerformed(evt);
+            }
+        });
+        getContentPane().add(txt_tendangnhap, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 210, 240, 60));
+
+        txt_matkhau.setFont(new java.awt.Font("Sitka Text", 0, 18)); // NOI18N
+        txt_matkhau.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txt_matkhauActionPerformed(evt);
+            }
+        });
+        getContentPane().add(txt_matkhau, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 290, 240, 60));
+
+        btn_dangnhap.setBackground(new java.awt.Color(102, 204, 255));
+        btn_dangnhap.setFont(new java.awt.Font("Sitka Text", 1, 18)); // NOI18N
+        btn_dangnhap.setForeground(new java.awt.Color(255, 255, 255));
+        btn_dangnhap.setText("Đăng nhập");
+        btn_dangnhap.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn_dangnhapActionPerformed(evt);
+            }
+        });
+        getContentPane().add(btn_dangnhap, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 380, 130, 40));
+
+        tendangnhap.setBackground(new java.awt.Color(51, 204, 255));
+        tendangnhap.setFont(new java.awt.Font("Sitka Text", 1, 18)); // NOI18N
+        tendangnhap.setForeground(new java.awt.Color(255, 255, 255));
+        tendangnhap.setText("Tên đăng nhập :");
+        getContentPane().add(tendangnhap, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 230, -1, -1));
+
+        matkhau.setFont(new java.awt.Font("Sitka Text", 1, 18)); // NOI18N
+        matkhau.setForeground(new java.awt.Color(255, 255, 255));
+        matkhau.setText("Mật khẩu :");
+        getContentPane().add(matkhau, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 310, -1, -1));
+
+        btn_quenmk.setBackground(new java.awt.Color(102, 102, 102));
+        btn_quenmk.setFont(new java.awt.Font("Sitka Text", 1, 18)); // NOI18N
+        btn_quenmk.setForeground(new java.awt.Color(255, 255, 255));
+        btn_quenmk.setText("Quên mật khẩu");
+        btn_quenmk.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn_quenmkActionPerformed(evt);
+            }
+        });
+        getContentPane().add(btn_quenmk, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 440, 170, 40));
+
+        jLabel1.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/BODUA.png"))); // NOI18N
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1200, 630));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+    private void txt_tendangnhapActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txt_tendangnhapActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton1ActionPerformed
+        String tendangnhap = txt_tendangnhap.getText();
+        System.out.println("Họ tên: "+ tendangnhap);
+    }//GEN-LAST:event_txt_tendangnhapActionPerformed
+
+    private void txt_matkhauActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txt_matkhauActionPerformed
+        // TODO add your handling code here:
+        String matkhau = txt_matkhau.getText();
+        System.out.println("Họ tên: "+ matkhau);
+    }//GEN-LAST:event_txt_matkhauActionPerformed
+
+    private void btn_dangkyActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_dangkyActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn_dangkyActionPerformed
+
+    private void btn_dangnhapActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_dangnhapActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn_dangnhapActionPerformed
+
+    private void btn_quenmkActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_quenmkActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn_quenmkActionPerformed
 
     /**
      * @param args the command line arguments
@@ -86,7 +165,13 @@ public class Giaodien extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton jButton1;
-    private javax.swing.JLabel jLabel2;
+    private javax.swing.JButton btn_dangky;
+    private javax.swing.JButton btn_dangnhap;
+    private javax.swing.JButton btn_quenmk;
+    private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel matkhau;
+    private javax.swing.JLabel tendangnhap;
+    private javax.swing.JTextField txt_matkhau;
+    private javax.swing.JTextField txt_tendangnhap;
     // End of variables declaration//GEN-END:variables
 }
