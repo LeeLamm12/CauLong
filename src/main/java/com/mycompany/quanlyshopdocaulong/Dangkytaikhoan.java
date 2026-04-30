@@ -52,10 +52,10 @@ public class Dangkytaikhoan extends javax.swing.JFrame {
         getContentPane().add(txt_tendangnhap, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 220, 240, 40));
 
         tendangnhap.setBackground(new java.awt.Color(51, 204, 255));
-        tendangnhap.setFont(new java.awt.Font("Sitka Text", 1, 18)); // NOI18N
+        tendangnhap.setFont(new java.awt.Font("Verdana", 1, 18)); // NOI18N
         tendangnhap.setForeground(new java.awt.Color(255, 255, 255));
         tendangnhap.setText("Đăng kí tài khoản");
-        getContentPane().add(tendangnhap, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 170, -1, -1));
+        getContentPane().add(tendangnhap, new org.netbeans.lib.awtextra.AbsoluteConstraints(510, 170, -1, -1));
 
         matkhau.setFont(new java.awt.Font("Sitka Text", 1, 18)); // NOI18N
         matkhau.setForeground(new java.awt.Color(255, 255, 255));

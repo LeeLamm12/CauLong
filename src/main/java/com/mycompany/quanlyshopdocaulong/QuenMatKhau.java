@@ -40,7 +40,7 @@ public class QuenMatKhau extends javax.swing.JFrame {
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         tendangnhap.setBackground(new java.awt.Color(51, 204, 255));
-        tendangnhap.setFont(new java.awt.Font("Sitka Text", 1, 18)); // NOI18N
+        tendangnhap.setFont(new java.awt.Font("Verdana", 1, 18)); // NOI18N
         tendangnhap.setForeground(new java.awt.Color(255, 255, 255));
         tendangnhap.setText("Quên mật khẩu");
         getContentPane().add(tendangnhap, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 170, -1, -1));
